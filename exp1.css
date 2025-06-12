@@ -1,0 +1,16 @@
+.menu{
+    display:flex;
+    color: blueviolet;
+    gap:10px;
+    justify-content: center;
+
+
+}
+.a{
+    color:aquamarine
+
+}
+.btn{
+    color: blanchedalmond;
+    gap:center;
+}

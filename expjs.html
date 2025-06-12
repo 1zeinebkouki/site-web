@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bonjour personnalisé</title>
+</head>
+<body>
+    <input type="text" id="monInput" />
+    <button id="saluerBtn">Cliquer</button>
+    <p id="messageAccueil"></p>
+
+    <script>
+        let bouton = document.getElementById("saluerBtn");
+        let text = document.getElementById("monInput");
+        let paragraphe = document.getElementById("messageAccueil");
+
+        bouton.addEventListener("click", function() {
+            paragraphe.textContent = "Bonjour, " + text.value;
+        });
+    </script>
+</body>
+</html>

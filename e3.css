@@ -1,0 +1,18 @@
+#Btn{
+    background-color: #4CAF50; 
+     padding: 12px 24px;
+     font-size: 16px;
+     transition: transform 0.2s ease, background-color 0.3s ease;
+}
+.carte-produit {
+    width: 250px;
+    padding: 16px;
+    background-color: #fff;
+    margin: 40px ;
+}
+#Btn:hover {
+    transform: scale(1.05);
+    background-color:red;
+    animation: hoverZoom 0.4s forwards;
+
+}
